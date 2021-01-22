@@ -1,0 +1,13 @@
+
+{
+    "httpMethod":[   
+          {"method":"GET", "url":"/account", "handler":"handleAccountDetail"},    
+          {"method":"POST", "url":"/createaccount", "handler":"postAccDetails"},  
+          {"method":"PUT", "url":"/account/:id", "handler":"updateAccDetail"},    
+          {"method":"DELETE", "url":"/account/:id", "hnadler":"deleteAccDetail"}   
+      ]
+  
+  }
+  
+  
+  
